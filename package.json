@@ -1,0 +1,55 @@
+{
+  "name": "boilerplate",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "react-native start",
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "axios": "0.19.0",
+    "eslint-config-react-native-prettier": "1.0.1",
+    "lodash": "4.17.15",
+    "moment": "2.24.0",
+    "native-base": "2.13.7",
+    "qs": "^6.8.0",
+    "react": "16.8.6",
+    "react-calendar-timeline": "0.26.2",
+    "react-native": "0.60.5",
+    "react-native-chart-kit": "3.3.1",
+    "react-native-config": "0.11.7",
+    "react-native-elements": "1.2.0",
+    "react-native-events-calendar": "1.0.8",
+    "react-native-gantt-chart": "1.0.6",
+    "react-native-global-props": "^1.1.5",
+    "react-native-horizontal-timeline": "^0.2.0",
+    "react-native-i18n": "2.0.15",
+    "react-native-linear-gradient": "2.5.6",
+    "react-native-router-flux": "4.0.6",
+    "react-native-step-indicator": "0.0.11",
+    "react-native-svg": "9.9.3",
+    "react-native-swiper": "1.5.14",
+    "react-native-textinput-effects": "0.5.1",
+    "react-native-vector-icons": "6.6.0",
+    "react-redux": "7.1.1",
+    "redux": "4.0.4",
+    "redux-devtools-extension": "2.13.8",
+    "redux-logger": "3.0.6",
+    "redux-promise-middleware": "6.1.1",
+    "redux-thunk": "2.3.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.6.0",
+    "@babel/runtime": "^7.6.0",
+    "@react-native-community/eslint-config": "^0.0.5",
+    "babel-jest": "^24.9.0",
+    "eslint": "^6.3.0",
+    "jest": "^24.9.0",
+    "metro-react-native-babel-preset": "^0.56.0",
+    "react-test-renderer": "16.8.6"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}

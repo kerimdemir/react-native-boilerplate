@@ -1,5 +1,5 @@
 # React Native Boilerplate
-
+                                                                                                                                
 ## Features
 - [x] Redux setup
 - [x] Axios get,post,pull,put configuration
@@ -43,6 +43,12 @@
 - When you decide to use Sentry , remove comment lines in App.js and use your DSN
 
 
-## SignOut, SignIn and Auth request
+## Users request
 
 - You have to set your URL in Config.js and file of actions.
+
+## Screenshot
+<img src="https://user-images.githubusercontent.com/19932626/65471176-e5895280-de76-11e9-9989-bd01bb173c39.png" width="200" height="400">
+<img src="https://user-images.githubusercontent.com/19932626/65471177-e621e900-de76-11e9-9029-a15b09951694.png"| width=200" width="100" height="400">
+                                                                                                                                                    
+                    

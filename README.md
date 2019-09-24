@@ -38,9 +38,6 @@
 5. To running on simulator or emulator run `npm run ios` or `npm run android`
 6. To running test run `npm run test`
 
-## Sentry 
- 
-- When you decide to use Sentry , remove comment lines in App.js and use your DSN
 
 
 ## Users request

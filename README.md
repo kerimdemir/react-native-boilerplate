@@ -26,6 +26,8 @@
 - i18n-js
 
 ## How to Use
+git clone https://github.com/kerimdemir/react-native-boilerplate.git boilerplate
+cd boilerplate && npm install
 
 1. Download zip
 2. Update `app.json`

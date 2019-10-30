@@ -1,4 +1,4 @@
-# React Native Boilerplate
+# My React Native Boilerplate
                                                                                                                                 
 ## Features
 - [x] Redux setup

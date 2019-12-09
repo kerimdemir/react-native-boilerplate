@@ -1,44 +1,87 @@
 import React from 'react';
-import {Text, View} from 'react-native';
+import {Text, View, StyleSheet} from 'react-native';
 import Icon from 'react-native-vector-icons/MaterialIcons';
 import {Colors} from '../themes';
 
 const TabContent = ({title, focused}) => {
-  let image;
-  let active = <Icon size={20} color={Colors.TEMPLATE_COLOR} name="home" />;
-  let passive = <Icon size={20} color={Colors.CARD_BACKGROUND} name="home" />;
+  let SIZE = 30;
   switch (title) {
     case 'Home':
-      image = focused ? active : passive;
+      return (
+        <View style={styles.container}>
+          <Icon
+            name={'home'}
+            color={focused ? Colors.TEMPLATE_COLOR : Colors.CARD_BACKGROUND}
+            size={SIZE}
+          />
+          <Text
+            style={{
+              color: focused ? Colors.TEMPLATE_COLOR : Colors.CARD_BACKGROUND,
+            }}>
+            Home
+          </Text>
+        </View>
+      );
       break;
     case 'Scene1':
-      image = focused ? active : passive;
+      return (
+        <View style={styles.container}>
+          <Icon
+            name={'3d-rotation'}
+            color={focused ? Colors.TEMPLATE_COLOR : Colors.CARD_BACKGROUND}
+            size={SIZE}
+          />
+          <Text
+            style={{
+              color: focused ? Colors.TEMPLATE_COLOR : Colors.CARD_BACKGROUND,
+            }}>
+            Scene1
+          </Text>
+        </View>
+      );
       break;
     case 'Scene2':
-      image = focused ? active : passive;
+      return (
+        <View style={styles.container}>
+          <Icon
+            name={'access-alarm'}
+            color={focused ? Colors.TEMPLATE_COLOR : Colors.CARD_BACKGROUND}
+            size={SIZE}
+          />
+          <Text
+            style={{
+              color: focused ? Colors.TEMPLATE_COLOR : Colors.CARD_BACKGROUND,
+            }}>
+            Scene2
+          </Text>
+        </View>
+      );
       break;
     case 'Scene3':
-      image = focused ? active : passive;
-      break;
-  }
-  switch (title) {
-    case 'Home':
-      return <View>{image}</View>;
-      break;
-    case 'Scene1':
-      return <View>{image}</View>;
-      break;
-    case 'Scene2':
-      return <View>{image}</View>;
-      break;
-    case 'Scene3':
-      return <View>{image}</View>;
+      return (
+        <View style={styles.container}>
+          <Icon
+            name={'accessible'}
+            color={focused ? Colors.TEMPLATE_COLOR : Colors.CARD_BACKGROUND}
+            size={SIZE}
+          />
+          <Text
+            style={{
+              color: focused ? Colors.TEMPLATE_COLOR : Colors.CARD_BACKGROUND,
+            }}>
+            Scene3
+          </Text>
+        </View>
+      );
       break;
 
     default:
-      return <View>{image}</View>;
-      break;
+      return <View />;
   }
 };
+
+const styles = StyleSheet.create({
+  container: {alignItems: 'center'},
+});
 
 export default TabContent;

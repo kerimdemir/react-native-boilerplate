@@ -4,6 +4,7 @@ import {
   Router,
   Scene,
   Drawer,
+    Tabs,
   Reducer,
   Actions,
 } from 'react-native-router-flux';
@@ -67,12 +68,24 @@ const Navigation = () => {
           drawerWidth={Metrics.WIDTH * 0.7}
           drawerPosition={'left'}
           open={false}>
-          <Scene tabs icon={TabContent}>
+          <Tabs
+            panHandlers={null}
+            translucent={true}
+            key="tabbar"
+            lazy
+            unmountScenes={true} // en son eklenen
+            swipeEnabled={false}
+            animationEnabled={false}
+            showLabel={false}
+            tabBarPosition={'bottom'}
+            icon={TabContent}
+            backTitle={' '}
+           >
             <Scene key="Home" title="Home" component={Home} />
             <Scene key="Scene1" title="Scene1" component={Scene1} />
             <Scene key="Scene2" title="Scene2" component={Scene2} />
             <Scene key="Scene3" title="Scene3" component={Scene3} />
-          </Scene>
+          </Tabs>
         </Drawer>
       </Scene>
     </Router>

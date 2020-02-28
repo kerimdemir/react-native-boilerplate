@@ -50,11 +50,7 @@ cd boilerplate && npm install
 - You have to set your URL in Config.js and file of actions.
 
 ## Screenshot
-<img src="https://user-images.githubusercontent.com/19932626/65471176-e5895280-de76-11e9-9989-bd01bb173c39.png" width="200" height="400">
-<img src="https://user-images.githubusercontent.com/19932626/65471177-e621e900-de76-11e9-9029-a15b09951694.png"| width=200" width="100" height="400">
-                                                                                                                                                  
-                                                                                                                                 
 
 | | | |
 |:-------------------------:|:-------------------------:|:-------------------------:|
-|<img width="1400" alt="screen shot 2017-08-07 at 12 18 15 pm" src="https://user-images.githubusercontent.com/19932626/65471176-e5895280-de76-11e9-9989-bd01bb173c39.png"> |  <img width="1400" alt="screen shot 2017-08-07 at 12 18 15 pm" src="https://user-images.githubusercontent.com/19932626/65471176-e5895280-de76-11e9-9989-bd01bb173c39.png">
+|<img width="1400" alt="screen shot 2017-08-07 at 12 18 15 pm" src="https://user-images.githubusercontent.com/19932626/65471176-e5895280-de76-11e9-9989-bd01bb173c39.png"> |  <img width="1400" alt="screen shot 2017-08-07 at 12 18 15 pm" src="https://user-images.githubusercontent.com/19932626/65471177-e621e900-de76-11e9-9029-a15b09951694.png">

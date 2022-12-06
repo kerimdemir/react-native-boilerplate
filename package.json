@@ -13,7 +13,7 @@
     "lodash": "4.17.15",
     "moment": "2.24.0",
     "native-base": "2.13.7",
-    "qs": "^6.8.0",
+    "qs": "^6.9.7",
     "react": "16.8.6",
     "react-native": "0.60.5",
     "react-native-chart-kit": "3.3.1",
